@@ -1,0 +1,141 @@
+/* Normal desktop :992px. */
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+  width: 100% !important;
+}
+.main-navigation a {
+  padding: 11px 10px 11px 10px;
+}
+.responsiv-bar{
+  visibility: hidden;
+  display: none;
+}
+.top-search {
+  display: block !important;
+}
+.entry-content {
+  margin: 0 !important;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.site-header {
+    padding: 0 !important;
+}
+.site-header-main.main-menu {
+  padding: 0 !important;
+}
+
+.main-navigation ul > li > a {
+    padding-left: 20px;
+}
+.main-navigation li {
+  border-bottom: 1px solid #fff;
+  border-top: 0 none;
+  position: relative;
+}
+.site-header-main.main-menu {
+  background: #00a3e0 none repeat scroll 0 0;
+  padding-bottom: 0 !important;
+  padding-left: 20px;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+}
+.menu-toggle {
+  border: 0 none !important;
+  margin: 15px 0 15px 20px !important;
+  padding: 0 !important;
+}
+.main-navigation a {
+  color: #fff !important;
+}
+#menu-toggle i {
+    color: #fff !important;
+    font-size: 20px !important;
+}
+.btn.btn-link.search-btn {
+  background: none !important;
+  color: #fff !important;
+}
+.top-search {
+  float: left;
+  margin: 0 10px 0 146px;
+}
+.top-contact {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.language-chooser-item.language-chooser-item-en.active > a {
+  color: #fff !important;
+}
+.language-chooser-item.language-chooser-item-cs > a {
+  color: #fff !important;
+}
+.entry-content {
+  margin: 0 !important;
+}
+.form-group input {
+  margin-bottom: 20px !important;
+}
+main {
+  margin: 0 !important;
+}
+.site-footer {
+  background: #00a3e0 !important;
+}
+
+.site-footer {
+    background: #00a3e0 none repeat scroll 0 0 !important;
+}
+.site-footer h4 {
+    margin-bottom: 50px !important;
+    text-align: center !important;
+}
+.owl-wrapper-outer {
+    padding-left: 37px !important;
+}
+.menu-item-has-children {
+  border-bottom: 0 none !important;
+}
+/*.tp-parallax-wrap{
+  left: -17px !important;
+}*/
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+@media (max-width: 360px) {
+
+
+
+}
+/***************************************/
+@media (min-width: 1024px) {
+.container {
+    margin: 0 auto !important;
+    width: 1024px;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1400px){
+
+}
+  
